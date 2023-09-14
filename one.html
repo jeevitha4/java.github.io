@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms part2</title>
+</head>
+<body>
+    <h1>Registartion Form</h1>
+    <form action="Submit.php" method="POST">
+        <label for="Frist Name">Frist Name:</label>
+        <input type="text" name="Frist Name" id="Frist Name" required>
+         <br>
+     <label for="Last Name">Last Name:</label>
+     <input type="text" name="Last Name" id="Last Name" required>
+<br>
+<label>Interests:</label>
+<input type="radio" name="interest"value="dance">dance
+<input type="radio" name="interest"value="music">music
+<input type="radio" name="interest"value="travel">travel
+<br>
+<label>Gender:</label>
+<input type="checkbox" name="gender"value="female">female
+<input type="checkbox" name="gender"value="male">male
+<br>
+<label for="email">email</label>
+<input type="email" name="email" id="email">email
+<br>
+<label for="Birthdate">Date of Birth:</label>
+<input type="date" name="birthdate" id="Date of Birth">
+<br>
+<label for="comments">comments:</label>
+<textarea name="comments" id="comments" cols="30" rows="4"></textarea>
+<br>
+<label for="Country">Country:</label>
+<select name="Country" id="Country">
+    <option value="USA">United States</option>
+    <option value="INA">India</option>
+    <option value="canada">canada</option>
+    <option value="Uk">United Kingdom</option>
+</select>
+<br>
+<label for="file upload">upload a file:</label>
+<input type="file" name="file upload" id="upload a file">
+<br>
+<input type="Submit"value="Sign up">
+<input type="Reset" value="Reset">
+   </form>
+    
+</body>
+</html>
